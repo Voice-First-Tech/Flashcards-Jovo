@@ -170,10 +170,10 @@ app.setHandler({
           speech.addText("Congrats!")
                 .addBreak( '300ms' )
                 .addText( " Say give me a flashcard to hear another flashcard." );
-          reprompt.addText("give me a flashcard to head another flashcard");
+          reprompt.addText("give me a flashcard to hear another flashcard");
         } else {
-          speech.addText("Practice makes perfect, say give me a flashcard to head another flashcard");
-          reprompt.addText("give me a flashcard to head another flashcard");
+          speech.addText("Practice makes perfect, say give me a flashcard to hear another flashcard");
+          reprompt.addText("give me a flashcard to hear another flashcard");
         }
 
         this.ask( speech , reprompt );
